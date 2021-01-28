@@ -55,7 +55,7 @@ Customer reviews are an essential source of information for many potential buyer
 ---
 
 [See the full report](https://github.com/alirifat/yelp_nlp_project/blob/main/Documentation/Final%20Report.pdf)  
-[Go toTable of Contents](#Table-of-Contents)
+[Go to Table of Contents](#Table-of-Contents)
 
 ---
 
