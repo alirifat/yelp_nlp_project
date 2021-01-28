@@ -1,8 +1,8 @@
 # Recommend Helpful Customer Reviews to Businesses
 
 <p align="center">
-  <img src="" width="800" height="600">
-</p>*
+  <img src="https://github.com/alirifat/yelp_nlp_project/blob/main/Documentation/figures/yelp-logo.png" width="800" height="600">
+</p>
 
 <i>We aim to predict helpful reviews based on the features that are extracted from the review corpus. Our purpose is to enhance customer interaction and help businesses to establish profitable customer relationships.</i>
 
@@ -54,7 +54,7 @@ Customer reviews are an essential source of information for many potential buyer
 
 ---
 
-[See the full report]()*  
+[See the full report](https://github.com/alirifat/yelp_nlp_project/blob/main/Documentation/Final%20Report.pdf)  
 [Go to[Table of Contents](#Table-of-Contents)
 
 ---
@@ -99,7 +99,7 @@ On the other hand, the average star rating for all businesses is 3.6. However, Y
 
 ---
 
-For a detailed version of this section, please refer to the [full report]()*
+For a detailed version of this section, [please refer to the full report](https://github.com/alirifat/yelp_nlp_project/blob/main/Documentation/Final%20Report.pdf)  
 [Go to Table of Contents](#Table-of-Contents)
 
 ---
@@ -109,8 +109,8 @@ For a detailed version of this section, please refer to the [full report]()*
 The businesses spread around Canada and the United States. While almost ¼ (43,693 out of 168,903) of all open businesses placed in Canada, Ontario is the most populous state with 36,627 companies. Quebec and Alberta follow it with the number of companies 10,223 and 8,682, respectively.   
 
 <p align="center">
-  <img src="" width="800" height="600">
-</p>*
+  <img src="https://github.com/alirifat/yelp_nlp_project/blob/main/Documentation/figures/business-locations.JPG" width="800" height="600">
+</p>
 
 In the United States, the companies grouped around Arizona-Nevada, Ohio-Wisconsin-Illinois, and North Carolina. However, Arizona and Nevada have 48% of all businesses in the US. 
 
@@ -125,8 +125,8 @@ The most populous states in terms of the number of businesses are Arizona and Ne
 Yelp's dataset provides industry information for each business. However, 374 firms do not associate with any industry. For this reason, they are dropped from the study. The remaining 124,836 firms are divided into 22 industries. The biggest industry is the restaurant industry, which is followed by the shopping industry. They almost account for half of the businesses in the US.  
 
 <p align="center">
-  <img src="" width="800" height="600">
-</p>*
+  <img src="https://github.com/alirifat/yelp_nlp_project/blob/main/Documentation/figures/industries.JPG" width="800" height="600">
+</p>
 
 #### Businesses in the Restaurant Industry
 
@@ -151,8 +151,8 @@ On the other hand, the total number of reviews submitted to the restaurant busin
 The histogram of star rating is left-skewed, which means that the number of businesses with a higher star rating than 3.0 is less than the number of companies with a lower star. 
 
 <p align="center">
-  <img src="" width="800" height="600">
-</p>*
+  <img src="https://github.com/alirifat/yelp_nlp_project/blob/main/Documentation/figures/histograms.JPG" width="800" height="600">
+</p>
 
 The y-axis of the review counts' histogram is logarithmically scaled, which allows showing a wide range of data compactly. In the figure, the markers on the y-axis increases by multiples of 10. In other words, even though the gaps between the markers on the y-axis are equal on the figure, they grow exponentially.  We see that only a few businesses have more than a thousand customer reviews. 
 
@@ -161,8 +161,8 @@ The y-axis of the review counts' histogram is logarithmically scaled, which allo
 The number of reviews decreases as we increase the number of helpful votes. It may require to have a cut-off point to determine the helpful reviews. Because a customer reviews with one helpful vote should differ from the one with a hundred helpful votes. For this reason, implementing a cut-off may help us better predict helpful reviews. 
 
 <p align="center">
-  <img src="" width="800" height="600">
-</p>*
+  <img src="https://github.com/alirifat/yelp_nlp_project/blob/main/Documentation/figures/histogram-heatmap.JPG" width="800" height="600">
+</p>
 
 We see a heatmap of correlation among numerical values in the reviews data. To investigate the relationship between helpful, funny, and cool reviews and time, we generated three measures such as year, month, and day using modular arithmetic. We used an anchor (12/15/2020) to extract all reviews' age in terms of years, months, and days.  
 
@@ -179,8 +179,8 @@ distribution is right-skewed, which means that most of the reviews have 5-stars.
 
 ---
 
-[See the full report]()*
-[See the notebook]()*
+[See the full report](https://github.com/alirifat/yelp_nlp_project/blob/main/Documentation/Final%20Report.pdf)  
+[See the notebook](https://nbviewer.jupyter.org/github/alirifat/yelp_nlp_project/blob/main/02_yelp_eda.ipynb)  
 [Go to Table of Contents](#Table-of-Contents)
 
 ---
@@ -197,7 +197,7 @@ Finally, we performed data cleaning processes and vectorized the reviews corpus 
 
 ---
 
-Go to [Table of Contents](#Table-of-Contents)
+[Go to Table of Contents](#Table-of-Contents)
 
 ---
 
@@ -206,8 +206,8 @@ Go to [Table of Contents](#Table-of-Contents)
 Most reviews have less than 100 sentences, but it is perfectly normal to have incredibly long customer reviews. However, the longest review consists of more than 250 sentences.  
 
 <p align="center">
-  <img src="" width="800" height="600">
-</p>*
+  <img src="https://github.com/alirifat/yelp_nlp_project/blob/main/Documentation/figures/basic-text-features.JPG" width="800" height="600">
+</p>
 
 In English, a sentence has, on average, 20 words, and each word has 4.7 letters. Thus, an average sentence in English has 94 letters. Accordingly, any properly constructed review may not be able to have more than 50 sentences. The longest sentence is wordy and does not contain any material 
 information about the place, such as price, time, and photo (see the [notebook]()* for further details). 
@@ -217,14 +217,14 @@ On the other hand, we focused on the number of dollar signs, exclamation marks, 
 However, the average length of words is an essential feature to identify anomalies in the corpus. Since it is approximately 5 in English, we can locate any non-English review. In the below figure, we can see the relationship between the average length of words in a review and its language. As the average length of words increases, it is more likely to be written in a different language. 
 
  <p align="center">
-  <img src="" width="800" height="600">
-</p>*
+  <img src="https://github.com/alirifat/yelp_nlp_project/blob/main/Documentation/figures/correlation-extracted_features.JPG" width="800" height="600">
+</p>
 
-Almost all features are highly correlated (see the [notebook]()* for further details), and using all features as the determinants of the target variable will cause multicollinearity. For this reason, we only selected the number of unique words as an independent variable and discarded the remaining features. It was possible to extract only the number of unique words initially; however, this would not provide the best opportunity to get familiar with the corpus. As a result, we used the extracted features for experimental purposes and decided to generate another set of predictive variables. 
+Almost all features are highly correlated ([see the notebook](https://nbviewer.jupyter.org/github/alirifat/yelp_nlp_project/blob/main/03_yelp_data_cleaning_feature_engineering.ipynb) for further details), and using all features as the determinants of the target variable will cause multicollinearity. For this reason, we only selected the number of unique words as an independent variable and discarded the remaining features. It was possible to extract only the number of unique words initially; however, this would not provide the best opportunity to get familiar with the corpus. As a result, we used the extracted features for experimental purposes and decided to generate another set of predictive variables. 
 
 ---
 
-Go to [Table of Contents](#Table-of-Contents)
+[Go to Table of Contents](#Table-of-Contents)
 
 ---
 
@@ -278,11 +278,11 @@ In the last step, we generated a TF-IDF matrix from the cleaned corpus. However,
 
 ---
 
-See the [full report]()*
+[See the full report](https://github.com/alirifat/yelp_nlp_project/blob/main/Documentation/Final%20Report.pdf)
 
-See the [notebook]()*
+[See the [notebook](https://nbviewer.jupyter.org/github/alirifat/yelp_nlp_project/blob/main/03_yelp_data_cleaning_feature_engineering.ipynb)
 
-Go to [Table of Contents](#Table-of-Contents)
+[Go to Table of Contents](#Table-of-Contents)
 
 ---
 
