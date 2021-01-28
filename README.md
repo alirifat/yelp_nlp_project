@@ -174,8 +174,8 @@ We want to investigate how helpful votes are distributed with respect to star ra
 distribution is right-skewed, which means that most of the reviews have 5-stars. 
 
 <p align="center">
-  <img src="" width="800" height="600">
-</p>*
+  <img src="https://github.com/alirifat/yelp_nlp_project/blob/main/Documentation/figures/star-helpful.JPG" width="400" height="300">
+</p>
 
 ---
 
@@ -297,8 +297,8 @@ We used the TF-IDF matrix to predict helpful reviews; however, the results were 
 After deciding the set of features, we did cross-validation to see the algorithms’ performances. The black bars represent the variation in the validation scores.
 
  <p align="center">
-  <img src="" width="800" height="600">
-</p>*
+  <img src="https://github.com/alirifat/yelp_nlp_project/blob/main/Documentation/figures/validation-scores.JPG" width="800" height="600">
+</p>
 
 Based on the cross-validation scores, we dropped Naïve Bayes from the study. The differences between the training and the set scores are not significant for __ROC__, but __PR__ and __MCC__ scores differ significantly for tree-based algorithms (excluding __XGBoost__). Accordingly, those algorithms may not be good choices for our data.
 
