@@ -40,6 +40,19 @@
 
 Customer reviews are an essential source of information for many potential buyers. It is possible to reach thousands of product reviews via different mediums. However, it is not the best practice to read all customer reviews before purchasing a product. This kind of approach will come with a high cost of time.  For this reason, the potential buyers need to reach the most helpful customer reviews with minimum time and effort to use their resources more efficiently. 
 
+In the project, I had the opportunity to exercise the following machine learning concepts:
+
+* Cross-Validation
+* Feature Extraction using RegEx (Regular Expressions)
+* Language Detection
+* Text Normalization
+* Text Vectorization
+* Confusion Matrices
+* Imbalanced Learning
+* Fine Tuning Algorithms
+* Custom Threshold for Binary Classification
+
+
 #### About Yelp Data
 
 [Yelp academic dataset](https://www.yelp.com/dataset) is available for free and open to the public. It's a well-known dataset in NLP (Natural Language Processing) research due to the detailed information provided to each business, user, customer review. Moreover, the dataset consists of six files: 
