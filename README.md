@@ -55,7 +55,7 @@ Customer reviews are an essential source of information for many potential buyer
 ---
 
 [See the full report](https://github.com/alirifat/yelp_nlp_project/blob/main/Documentation/Final%20Report.pdf)  
-[Go to[Table of Contents](#Table-of-Contents)
+[Go toTable of Contents](#Table-of-Contents)
 
 ---
 
@@ -69,7 +69,7 @@ On the other hand, in the information search process, customers would like to ac
 
 ---
 
-Go to [Table of Contents](#Table-of-Contents)
+[Go to Table of Contents](#Table-of-Contents)
 
 ---
 
@@ -83,7 +83,7 @@ Predicting customer reviews' helpfulness gives business control over the custome
 
 ---
 
-Go to [Table of Contents](#Table-of-Contents)
+[Go to Table of Contents](#Table-of-Contents)
 
 ---
 
@@ -278,10 +278,8 @@ In the last step, we generated a TF-IDF matrix from the cleaned corpus. However,
 
 ---
 
-[See the full report](https://github.com/alirifat/yelp_nlp_project/blob/main/Documentation/Final%20Report.pdf)
-
-[See the notebook](https://nbviewer.jupyter.org/github/alirifat/yelp_nlp_project/blob/main/03_yelp_data_cleaning_feature_engineering.ipynb)
-
+[See the full report](https://github.com/alirifat/yelp_nlp_project/blob/main/Documentation/Final%20Report.pdf)  
+[See the notebook](https://nbviewer.jupyter.org/github/alirifat/yelp_nlp_project/blob/main/03_yelp_data_cleaning_feature_engineering.ipynb)  
 [Go to Table of Contents](#Table-of-Contents)
 
 ---
