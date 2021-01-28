@@ -109,7 +109,7 @@ For a detailed version of this section, [please refer to the full report](https:
 The businesses spread around Canada and the United States. While almost ¼ (43,693 out of 168,903) of all open businesses placed in Canada, Ontario is the most populous state with 36,627 companies. Quebec and Alberta follow it with the number of companies 10,223 and 8,682, respectively.   
 
 <p align="center">
-  <img src="https://github.com/alirifat/yelp_nlp_project/blob/main/Documentation/figures/business-locations.JPG" width="800" height="600">
+  <img src="https://github.com/alirifat/yelp_nlp_project/blob/main/Documentation/figures/business-locations.JPG" width="800" height="400">
 </p>
 
 In the United States, the companies grouped around Arizona-Nevada, Ohio-Wisconsin-Illinois, and North Carolina. However, Arizona and Nevada have 48% of all businesses in the US. 
@@ -125,7 +125,7 @@ The most populous states in terms of the number of businesses are Arizona and Ne
 Yelp's dataset provides industry information for each business. However, 374 firms do not associate with any industry. For this reason, they are dropped from the study. The remaining 124,836 firms are divided into 22 industries. The biggest industry is the restaurant industry, which is followed by the shopping industry. They almost account for half of the businesses in the US.  
 
 <p align="center">
-  <img src="https://github.com/alirifat/yelp_nlp_project/blob/main/Documentation/figures/industries.JPG" width="800" height="400">
+  <img src="https://github.com/alirifat/yelp_nlp_project/blob/main/Documentation/figures/industries.JPG" width="600" height="400">
 </p>
 
 #### Businesses in the Restaurant Industry
