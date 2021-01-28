@@ -151,7 +151,7 @@ On the other hand, the total number of reviews submitted to the restaurant busin
 The histogram of star rating is left-skewed, which means that the number of businesses with a higher star rating than 3.0 is less than the number of companies with a lower star. 
 
 <p align="center">
-  <img src="https://github.com/alirifat/yelp_nlp_project/blob/main/Documentation/figures/histograms.JPG" width="800" height="600">
+  <img src="https://github.com/alirifat/yelp_nlp_project/blob/main/Documentation/figures/histograms.JPG" width="800" height="300">
 </p>
 
 The y-axis of the review counts' histogram is logarithmically scaled, which allows showing a wide range of data compactly. In the figure, the markers on the y-axis increases by multiples of 10. In other words, even though the gaps between the markers on the y-axis are equal on the figure, they grow exponentially.  We see that only a few businesses have more than a thousand customer reviews. 
@@ -161,7 +161,7 @@ The y-axis of the review counts' histogram is logarithmically scaled, which allo
 The number of reviews decreases as we increase the number of helpful votes. It may require to have a cut-off point to determine the helpful reviews. Because a customer reviews with one helpful vote should differ from the one with a hundred helpful votes. For this reason, implementing a cut-off may help us better predict helpful reviews. 
 
 <p align="center">
-  <img src="https://github.com/alirifat/yelp_nlp_project/blob/main/Documentation/figures/histogram-heatmap.JPG" width="800" height="600">
+  <img src="https://github.com/alirifat/yelp_nlp_project/blob/main/Documentation/figures/histogram-heatmap.JPG" width="800" height="300">
 </p>
 
 We see a heatmap of correlation among numerical values in the reviews data. To investigate the relationship between helpful, funny, and cool reviews and time, we generated three measures such as year, month, and day using modular arithmetic. We used an anchor (12/15/2020) to extract all reviews' age in terms of years, months, and days.  
@@ -206,7 +206,7 @@ Finally, we performed data cleaning processes and vectorized the reviews corpus 
 Most reviews have less than 100 sentences, but it is perfectly normal to have incredibly long customer reviews. However, the longest review consists of more than 250 sentences.  
 
 <p align="center">
-  <img src="https://github.com/alirifat/yelp_nlp_project/blob/main/Documentation/figures/basic-text-features.JPG" width="800" height="600">
+  <img src="https://github.com/alirifat/yelp_nlp_project/blob/main/Documentation/figures/basic-text-features.JPG" width="800" height="800">
 </p>
 
 In English, a sentence has, on average, 20 words, and each word has 4.7 letters. Thus, an average sentence in English has 94 letters. Accordingly, any properly constructed review may not be able to have more than 50 sentences. The longest sentence is wordy and does not contain any material 
