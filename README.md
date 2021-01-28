@@ -210,7 +210,7 @@ Most reviews have less than 100 sentences, but it is perfectly normal to have in
 </p>
 
 In English, a sentence has, on average, 20 words, and each word has 4.7 letters. Thus, an average sentence in English has 94 letters. Accordingly, any properly constructed review may not be able to have more than 50 sentences. The longest sentence is wordy and does not contain any material 
-information about the place, such as price, time, and photo (see the [notebook]()* for further details). 
+information about the place, such as price, time, and photo ([see the notebook](https://nbviewer.jupyter.org/github/alirifat/yelp_nlp_project/blob/main/03_yelp_data_cleaning_feature_engineering.ipynb) for further details). 
 
 On the other hand, we focused on the number of dollar signs, exclamation marks, digits, uppercase words, and average word length. Because each feature may reveal essential information to the customers, such as the number of dollar signs and digits increases in a review, it may contain more information about the price. Also, the number of uppercase words and exclamation marks can express customer emotions and be perceived as helpful by others. 
 
@@ -280,7 +280,7 @@ In the last step, we generated a TF-IDF matrix from the cleaned corpus. However,
 
 [See the full report](https://github.com/alirifat/yelp_nlp_project/blob/main/Documentation/Final%20Report.pdf)
 
-[See the [notebook](https://nbviewer.jupyter.org/github/alirifat/yelp_nlp_project/blob/main/03_yelp_data_cleaning_feature_engineering.ipynb)
+[See the notebook](https://nbviewer.jupyter.org/github/alirifat/yelp_nlp_project/blob/main/03_yelp_data_cleaning_feature_engineering.ipynb)
 
 [Go to Table of Contents](#Table-of-Contents)
 
@@ -292,7 +292,7 @@ In the last step, we generated a TF-IDF matrix from the cleaned corpus. However,
 
 We generated a binary target variable by transforming helpful votes. Any review with five or more helpful votes is recorded as a helpful review, and the remaining ones unhelpful. We used Naïve Bayes and Decision Tree algorithms to obtain initial results. 
 
-We used the TF-IDF matrix to predict helpful reviews; however, the results were not promising (see the [notebook]()* for a detailed explanation). To check if the matrix works, we predicted star ratings of the reviews with the same matrix. We transformed the star ratings into a binary variable by assigning 1 to reviews with four or higher ratings and 0 to the remaining ones. The TF-IDF matrix works when we predict the star rating; however, it does not predict helpful reviews. For this reason, we used only the extracted features to predict helpful reviews.
+We used the TF-IDF matrix to predict helpful reviews; however, the results were not promising ([see the notebook](https://nbviewer.jupyter.org/github/alirifat/yelp_nlp_project/blob/main/04_algorithms_with_default_parameters.ipynb) for a detailed explanation). To check if the matrix works, we predicted star ratings of the reviews with the same matrix. We transformed the star ratings into a binary variable by assigning 1 to reviews with four or higher ratings and 0 to the remaining ones. The TF-IDF matrix works when we predict the star rating; however, it does not predict helpful reviews. For this reason, we used only the extracted features to predict helpful reviews.
 
 After deciding the set of features, we did cross-validation to see the algorithms’ performances. The black bars represent the variation in the validation scores.
 
