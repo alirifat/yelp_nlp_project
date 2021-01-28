@@ -1,7 +1,7 @@
 # Recommend Helpful Customer Reviews to Businesses
 
 <p align="center">
-  <img src="https://github.com/alirifat/yelp_nlp_project/blob/main/Documentation/figures/yelp-logo.png" width="800" height="600">
+  <img src="https://github.com/alirifat/yelp_nlp_project/blob/main/Documentation/figures/yelp-logo.png" width="800" height="500">
 </p>
 
 <i>We aim to predict helpful reviews based on the features that are extracted from the review corpus. Our purpose is to enhance customer interaction and help businesses to establish profitable customer relationships.</i>
